@@ -1,0 +1,31 @@
+mmwDemo:/>configDataPort 921600 1
+mmwDemo:/>sensorStop
+mmwDemo:/>flushCfg
+mmwDemo:/>dfeDataOutputMode 1
+mmwDemo:/>channelCfg 15 7 0
+mmwDemo:/>adcCfg 2 1
+mmwDemo:/>adcbufCfg -1 0 1 1 1
+mmwDemo:/>profileCfg 0 60.25 7 6 57 0 0 65 1 64 2000 0 0 48
+mmwDemo:/>chirpCfg 0 0 0 0 0 0 0 1
+mmwDemo:/>chirpCfg 1 1 0 0 0 0 0 2
+mmwDemo:/>chirpCfg 2 2 0 0 0 0 0 4
+mmwDemo:/>frameCfg 0 2 16 0 62.5 1 0
+mmwDemo:/>lowPower 0 0
+mmwDemo:/>guiMonitor -1 0 0 0 1 0 0
+mmwDemo:/>cfarCfg -1 0 2 8 4 3 0 15 1
+mmwDemo:/>cfarCfg -1 1 0 4 2 3 1 15 1
+mmwDemo:/>multiObjBeamForming -1 1 0.5
+mmwDemo:/>clutterRemoval -1 0
+mmwDemo:/>calibDcRangeSig -1 0 -5 8 256
+mmwDemo:/>extendedMaxVelocity -1 0
+mmwDemo:/>lvdsStreamCfg -1 0 1 0
+mmwDemo:/>compRangeBiasAndRxChanPhase 0.0 1 0 -1 0 1 0 -1 0 1 0 -1 0 1 0 -1 0 1 0 -1 0 1 0 -1 0
+mmwDemo:/>measureRangeBiasAndRxChanPhase 0 1.5 0.2
+mmwDemo:/>CQRxSatMonitor 0 3 5 121 0
+mmwDemo:/>CQSigImgMonitor 0 127 4
+mmwDemo:/>analogMonitor 0 0
+mmwDemo:/>aoaFovCfg -1 -90 90 -90 90
+mmwDemo:/>cfarFovCfg -1 0 0 8.92
+mmwDemo:/>cfarFovCfg -1 1 -1 1.00
+mmwDemo:/>calibData 0 0 0
+mmwDemo:/>sensorStart

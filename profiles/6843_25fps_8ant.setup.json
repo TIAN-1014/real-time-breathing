@@ -1,0 +1,34 @@
+{
+  "createdByVersion": "2.1.0",
+  "createdOn": "2024-06-11T11:36:18.6687152+09:00",
+  "configUsed": "G:\\Research\\code_base\\realtime_radar_platform\\profiles\\6843_25fps_8ant.mmwave.json",
+  "captureHardware": "DCA1000",
+  "DCA1000Config": {
+    "dataLoggingMode": "raw",
+    "dataTransferMode": "LVDSCapture",
+    "dataCaptureMode": "ethernetStream",
+    "packetSequenceEnable": 1,
+    "packetDelay_us": 25
+  },
+  "mmWaveDevice": "iwr6843",
+  "operatingFreq": 60,
+  "mmWaveDeviceConfig": {
+    "RS232COMPort": "COM3",
+    "RS232BaudRate": "921600",
+    "radarSSFirmware": "C:\\ti\\mmwave_studio_02_01_01_00\\rf_eval_firmware\\radarss\\xwr68xx_radarss.bin",
+    "masterSSFirmware": "C:\\ti\\mmwave_studio_02_01_01_00\\rf_eval_firmware\\masterss\\xwr68xx_masterss.bin"
+  },
+  "capturedFiles": {
+    "numFilesCollected": 1,
+    "fileBasePath": "results\\raw_data",
+    "files": [
+      {
+        "rawFileName": "adc_data_Raw_0.bin",
+        "processedFileName": "adc_data.bin",
+        "processedFileSummary": {
+          "numZeroFillBytes": 0
+        }
+      }
+    ]
+  }
+}

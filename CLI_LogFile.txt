@@ -1,0 +1,764 @@
+
+Tue Jun 11 12:22:40 2024
+FPGA Configuration Command (req)
+
+Tue Jun 11 12:22:40 2024
+FPGA Configuration command : Success
+
+Tue Jun 11 12:22:40 2024
+Return status : 0
+
+Tue Jun 11 12:22:41 2024
+Configure Record Command (req)
+
+Tue Jun 11 12:22:41 2024
+Configure Record command : Success
+
+Tue Jun 11 12:22:41 2024
+Return status : 0
+
+Tue Jun 11 12:24:09 2024
+FPGA Configuration Command (req)
+
+Tue Jun 11 12:24:09 2024
+FPGA Configuration command : Success
+
+Tue Jun 11 12:24:09 2024
+Return status : 0
+
+Tue Jun 11 12:24:10 2024
+Configure Record Command (req)
+
+Tue Jun 11 12:24:10 2024
+Configure Record command : Success
+
+Tue Jun 11 12:24:10 2024
+Return status : 0
+
+Tue Jun 11 12:24:11 2024
+Start Record Command (req)
+
+Tue Jun 11 12:24:11 2024
+Start Record Command (req)
+
+Tue Jun 11 12:24:11 2024
+Start Record command : Success
+
+Tue Jun 11 12:24:11 2024
+Return status : 0
+
+Tue Jun 11 12:24:11 2024
+Start Record command : Success
+
+Tue Jun 11 12:40:04 2024
+FPGA Configuration Command (req)
+
+Tue Jun 11 12:40:04 2024
+FPGA Configuration command : Success
+
+Tue Jun 11 12:40:04 2024
+Return status : 0
+
+Tue Jun 11 12:40:05 2024
+Configure Record Command (req)
+
+Tue Jun 11 12:40:05 2024
+Configure Record command : Success
+
+Tue Jun 11 12:40:05 2024
+Return status : 0
+
+Tue Jun 11 12:40:06 2024
+Start Record Command (req)
+
+Tue Jun 11 12:40:06 2024
+Start Record Command (req)
+
+Tue Jun 11 12:40:06 2024
+Start Record command : Success
+
+Tue Jun 11 12:40:06 2024
+Return status : 0
+
+Tue Jun 11 12:40:06 2024
+Start Record command : Success
+
+Tue Jun 11 12:41:06 2024
+stop_record
+
+Tue Jun 11 12:41:06 2024
+No record process is running.
+
+Tue Jun 11 12:57:13 2024
+FPGA Configuration Command (req)
+
+Tue Jun 11 12:57:13 2024
+FPGA Configuration command : Success
+
+Tue Jun 11 12:57:13 2024
+Return status : 0
+
+Tue Jun 11 12:57:14 2024
+Configure Record Command (req)
+
+Tue Jun 11 12:57:14 2024
+Configure Record command : Success
+
+Tue Jun 11 12:57:14 2024
+Return status : 0
+
+Tue Jun 11 12:57:16 2024
+Start Record Command (req)
+
+Tue Jun 11 12:57:16 2024
+Start Record Command (req)
+
+Tue Jun 11 12:57:16 2024
+Start Record command : Success
+
+Tue Jun 11 12:57:16 2024
+Return status : 0
+
+Tue Jun 11 12:57:16 2024
+Start Record command : Success
+
+Tue Jun 11 12:58:16 2024
+stop_record
+
+Tue Jun 11 12:58:16 2024
+No record process is running.
+
+Tue Jun 11 13:00:10 2024
+FPGA Configuration Command (req)
+
+Tue Jun 11 13:00:10 2024
+FPGA Configuration command : Success
+
+Tue Jun 11 13:00:10 2024
+Return status : 0
+
+Tue Jun 11 13:00:11 2024
+Configure Record Command (req)
+
+Tue Jun 11 13:00:11 2024
+Configure Record command : Success
+
+Tue Jun 11 13:00:11 2024
+Return status : 0
+
+Tue Jun 11 13:00:12 2024
+Start Record Command (req)
+
+Tue Jun 11 13:00:12 2024
+Start Record Command (req)
+
+Tue Jun 11 13:00:12 2024
+Start Record command : Success
+
+Tue Jun 11 13:00:12 2024
+Return status : 0
+
+Tue Jun 11 13:00:13 2024
+Start Record command : Success
+
+Tue Jun 11 13:01:13 2024
+Stop Record Command (req)
+
+Tue Jun 11 13:01:20 2024
+Stop Record command : Timeout Error! Couldnt read the record process status. [error -4068]
+
+Tue Jun 11 13:34:20 2024
+FPGA Configuration Command (req)
+
+Tue Jun 11 13:34:20 2024
+FPGA Configuration command : Success
+
+Tue Jun 11 13:34:20 2024
+Return status : 0
+
+Tue Jun 11 13:34:21 2024
+Configure Record Command (req)
+
+Tue Jun 11 13:34:21 2024
+Configure Record command : Success
+
+Tue Jun 11 13:34:21 2024
+Return status : 0
+
+Tue Jun 11 13:34:22 2024
+Start Record Command (req)
+
+Tue Jun 11 13:34:22 2024
+Start Record Command (req)
+
+Tue Jun 11 13:34:22 2024
+Start Record command : Success
+
+Tue Jun 11 13:34:22 2024
+Return status : 0
+
+Tue Jun 11 13:34:23 2024
+Start Record command : Success
+
+Tue Jun 11 13:35:23 2024
+Stop Record Command (req)
+
+Tue Jun 11 13:35:30 2024
+Stop Record command : Timeout Error! Couldnt read the record process status. [error -4068]
+
+Tue Jun 11 15:30:28 2024
+FPGA Configuration Command (req)
+
+Tue Jun 11 15:30:28 2024
+FPGA Configuration command : Success
+
+Tue Jun 11 15:30:28 2024
+Return status : 0
+
+Tue Jun 11 15:30:29 2024
+Configure Record Command (req)
+
+Tue Jun 11 15:30:29 2024
+Configure Record command : Success
+
+Tue Jun 11 15:30:29 2024
+Return status : 0
+
+Tue Jun 11 15:30:30 2024
+Start Record Command (req)
+
+Tue Jun 11 15:30:30 2024
+Start Record Command (req)
+
+Tue Jun 11 15:30:30 2024
+Start Record command : Success
+
+Tue Jun 11 15:30:30 2024
+Return status : 0
+
+Tue Jun 11 15:30:31 2024
+Start Record command : Success
+
+Tue Jun 11 15:31:31 2024
+Stop Record Command (req)
+
+Tue Jun 11 15:31:39 2024
+Stop Record command : Timeout Error! Couldnt read the record process status. [error -4068]
+
+Tue Jun 11 15:31:45 2024
+Record stop failed
+
+Tue Jun 11 15:33:20 2024
+FPGA Configuration Command (req)
+
+Tue Jun 11 15:33:20 2024
+FPGA Configuration command : Success
+
+Tue Jun 11 15:33:20 2024
+Return status : 0
+
+Tue Jun 11 15:33:21 2024
+Configure Record Command (req)
+
+Tue Jun 11 15:33:21 2024
+Configure Record command : Success
+
+Tue Jun 11 15:33:21 2024
+Return status : 0
+
+Tue Jun 11 15:33:22 2024
+Start Record Command (req)
+
+Tue Jun 11 15:33:22 2024
+Start Record Command (req)
+
+Tue Jun 11 15:33:22 2024
+Start Record command : Success
+
+Tue Jun 11 15:33:22 2024
+Return status : 0
+
+Tue Jun 11 15:33:23 2024
+Start Record command : Success
+
+Tue Jun 11 15:34:46 2024
+Record Process : 
+Timeout Error! System disconnected
+
+Tue Jun 11 15:34:59 2024
+Record stop failed
+
+Tue Jun 11 15:37:11 2024
+FPGA Configuration Command (req)
+
+Tue Jun 11 15:37:11 2024
+FPGA Configuration command : Success
+
+Tue Jun 11 15:37:12 2024
+Return status : 0
+
+Tue Jun 11 15:37:13 2024
+Configure Record Command (req)
+
+Tue Jun 11 15:37:13 2024
+Configure Record command : Success
+
+Tue Jun 11 15:37:13 2024
+Return status : 0
+
+Tue Jun 11 15:37:14 2024
+Start Record Command (req)
+
+Tue Jun 11 15:37:14 2024
+Start Record Command (req)
+
+Tue Jun 11 15:37:14 2024
+Start Record command : Success
+
+Tue Jun 11 15:37:14 2024
+Return status : 0
+
+Tue Jun 11 15:37:14 2024
+Start Record command : Success
+
+Tue Jun 11 15:40:00 2024
+FPGA Configuration Command (req)
+
+Tue Jun 11 15:40:00 2024
+FPGA Configuration command : Success
+
+Tue Jun 11 15:40:00 2024
+Return status : 0
+
+Tue Jun 11 15:40:01 2024
+Configure Record Command (req)
+
+Tue Jun 11 15:40:01 2024
+Configure Record command : Success
+
+Tue Jun 11 15:40:01 2024
+Return status : 0
+
+Tue Jun 11 15:40:02 2024
+Start Record Command (req)
+
+Tue Jun 11 15:40:02 2024
+Start Record Command (req)
+
+Tue Jun 11 15:40:02 2024
+Start Record command : Success
+
+Tue Jun 11 15:40:02 2024
+Return status : 0
+
+Tue Jun 11 15:40:02 2024
+Start Record command : Success
+
+Tue Jun 11 15:41:26 2024
+Record Process : 
+Timeout Error! System disconnected
+
+Tue Jun 11 15:41:40 2024
+Record stop failed
+
+Tue Jun 11 15:44:21 2024
+FPGA Configuration Command (req)
+
+Tue Jun 11 15:44:21 2024
+FPGA Configuration command : Success
+
+Tue Jun 11 15:44:21 2024
+Return status : 0
+
+Tue Jun 11 15:44:22 2024
+Configure Record Command (req)
+
+Tue Jun 11 15:44:22 2024
+Configure Record command : Success
+
+Tue Jun 11 15:44:22 2024
+Return status : 0
+
+Tue Jun 11 15:44:23 2024
+Start Record Command (req)
+
+Tue Jun 11 15:44:23 2024
+Start Record Command (req)
+
+Tue Jun 11 15:44:23 2024
+Start Record command : Success
+
+Tue Jun 11 15:44:23 2024
+Return status : 0
+
+Tue Jun 11 15:44:24 2024
+Start Record command : Success
+
+Tue Jun 11 15:46:15 2024
+Record Process : 
+Timeout Error! System disconnected
+
+Tue Jun 11 15:46:57 2024
+Record stop failed
+
+Tue Jun 11 15:49:16 2024
+FPGA Configuration Command (req)
+
+Tue Jun 11 15:49:16 2024
+FPGA Configuration command : Success
+
+Tue Jun 11 15:49:16 2024
+Return status : 0
+
+Tue Jun 11 15:49:17 2024
+Configure Record Command (req)
+
+Tue Jun 11 15:49:17 2024
+Configure Record command : Success
+
+Tue Jun 11 15:49:17 2024
+Return status : 0
+
+Tue Jun 11 15:49:18 2024
+Start Record Command (req)
+
+Tue Jun 11 15:49:18 2024
+Start Record Command (req)
+
+Tue Jun 11 15:49:18 2024
+Start Record command : Success
+
+Tue Jun 11 15:49:18 2024
+Return status : 0
+
+Tue Jun 11 15:49:19 2024
+Start Record command : Success
+
+Tue Jun 11 15:53:06 2024
+Record Process : 
+Timeout Error! System disconnected
+
+Tue Jun 11 15:53:17 2024
+Record stop failed
+
+Tue Jun 11 15:55:08 2024
+FPGA Configuration Command (req)
+
+Tue Jun 11 15:55:08 2024
+FPGA Configuration command : Success
+
+Tue Jun 11 15:55:08 2024
+Return status : 0
+
+Tue Jun 11 15:55:09 2024
+Configure Record Command (req)
+
+Tue Jun 11 15:55:09 2024
+Configure Record command : Success
+
+Tue Jun 11 15:55:09 2024
+Return status : 0
+
+Tue Jun 11 15:55:10 2024
+Start Record Command (req)
+
+Tue Jun 11 15:55:10 2024
+Start Record Command (req)
+
+Tue Jun 11 15:55:10 2024
+Start Record command : Success
+
+Tue Jun 11 15:55:10 2024
+Return status : 0
+
+Tue Jun 11 15:55:11 2024
+Start Record command : Success
+
+Tue Jun 11 20:39:14 2024
+FPGA Configuration Command (req)
+
+Tue Jun 11 20:39:14 2024
+FPGA Configuration command : Success
+
+Tue Jun 11 20:39:14 2024
+Return status : 0
+
+Tue Jun 11 20:39:15 2024
+Configure Record Command (req)
+
+Tue Jun 11 20:39:15 2024
+Configure Record command : Success
+
+Tue Jun 11 20:39:15 2024
+Return status : 0
+
+Tue Jun 11 20:39:16 2024
+Start Record Command (req)
+
+Tue Jun 11 20:39:16 2024
+Start Record Command (req)
+
+Tue Jun 11 20:39:16 2024
+Start Record command : Success
+
+Tue Jun 11 20:39:16 2024
+Return status : 0
+
+Tue Jun 11 20:39:17 2024
+Start Record command : Success
+
+Tue Jun 11 20:52:56 2024
+FPGA Configuration Command (req)
+
+Tue Jun 11 20:52:56 2024
+FPGA Configuration command : Success
+
+Tue Jun 11 20:52:56 2024
+Return status : 0
+
+Tue Jun 11 20:52:57 2024
+Configure Record Command (req)
+
+Tue Jun 11 20:52:57 2024
+Configure Record command : Success
+
+Tue Jun 11 20:52:57 2024
+Return status : 0
+
+Tue Jun 11 20:52:58 2024
+Start Record Command (req)
+
+Tue Jun 11 20:52:58 2024
+Start Record Command (req)
+
+Tue Jun 11 20:52:59 2024
+Start Record command : Success
+
+Tue Jun 11 20:52:59 2024
+Return status : 0
+
+Tue Jun 11 20:52:59 2024
+Start Record command : Success
+
+Tue Jun 11 21:11:21 2024
+FPGA Configuration Command (req)
+
+Tue Jun 11 21:11:21 2024
+FPGA Configuration command : Success
+
+Tue Jun 11 21:11:21 2024
+Return status : 0
+
+Tue Jun 11 21:11:22 2024
+Configure Record Command (req)
+
+Tue Jun 11 21:11:22 2024
+Configure Record command : Success
+
+Tue Jun 11 21:11:22 2024
+Return status : 0
+
+Tue Jun 11 21:11:23 2024
+Start Record Command (req)
+
+Tue Jun 11 21:11:23 2024
+Start Record Command (req)
+
+Tue Jun 11 21:11:23 2024
+Start Record command : Success
+
+Tue Jun 11 21:11:23 2024
+Return status : 0
+
+Tue Jun 11 21:11:23 2024
+Start Record command : Success
+
+Tue Jun 11 21:17:31 2024
+FPGA Configuration Command (req)
+
+Tue Jun 11 21:17:42 2024
+FPGA Configuration : 
+Timeout Error! System disconnected
+
+Tue Jun 11 21:17:42 2024
+Return status : -5
+
+Tue Jun 11 21:17:43 2024
+Configure Record Command (req)
+
+Tue Jun 11 21:17:53 2024
+Configure Record : 
+Timeout Error! System disconnected
+
+Tue Jun 11 21:17:53 2024
+Return status : -5
+
+Tue Jun 11 21:17:54 2024
+Start Record Command (req)
+
+Tue Jun 11 21:18:04 2024
+System is disconnected.
+
+Tue Jun 11 21:18:04 2024
+Return status : -5
+
+Tue Jun 11 21:54:35 2024
+FPGA Configuration Command (req)
+
+Tue Jun 11 21:54:35 2024
+FPGA Configuration command : Success
+
+Tue Jun 11 21:54:35 2024
+Return status : 0
+
+Tue Jun 11 21:54:36 2024
+Configure Record Command (req)
+
+Tue Jun 11 21:54:36 2024
+Configure Record command : Success
+
+Tue Jun 11 21:54:36 2024
+Return status : 0
+
+Tue Jun 11 21:54:37 2024
+Start Record Command (req)
+
+Tue Jun 11 21:54:38 2024
+Start Record Command (req)
+
+Tue Jun 11 21:54:38 2024
+Start Record command : Success
+
+Tue Jun 11 21:54:38 2024
+Return status : 0
+
+Tue Jun 11 21:54:38 2024
+Start Record command : Success
+
+Tue Jun 11 22:30:45 2024
+FPGA Configuration Command (req)
+
+Tue Jun 11 22:30:45 2024
+FPGA Configuration command : Success
+
+Tue Jun 11 22:30:45 2024
+Return status : 0
+
+Tue Jun 11 22:30:46 2024
+Configure Record Command (req)
+
+Tue Jun 11 22:30:46 2024
+Configure Record command : Success
+
+Tue Jun 11 22:30:46 2024
+Return status : 0
+
+Tue Jun 11 22:30:47 2024
+Start Record Command (req)
+
+Tue Jun 11 22:30:47 2024
+Start Record Command (req)
+
+Tue Jun 11 22:30:47 2024
+Start Record command : Success
+
+Tue Jun 11 22:30:48 2024
+Return status : 0
+
+Tue Jun 11 22:30:48 2024
+Start Record command : Success
+
+Tue Jun 11 22:45:51 2024
+FPGA Configuration Command (req)
+
+Tue Jun 11 22:45:51 2024
+FPGA Configuration command : Success
+
+Tue Jun 11 22:45:51 2024
+Return status : 0
+
+Tue Jun 11 22:45:52 2024
+Configure Record Command (req)
+
+Tue Jun 11 22:45:52 2024
+Configure Record command : Success
+
+Tue Jun 11 22:45:52 2024
+Return status : 0
+
+Tue Jun 11 22:45:53 2024
+Start Record Command (req)
+
+Tue Jun 11 22:45:53 2024
+Start Record Command (req)
+
+Tue Jun 11 22:45:53 2024
+Start Record command : Success
+
+Tue Jun 11 22:45:53 2024
+Return status : 0
+
+Tue Jun 11 22:45:54 2024
+Start Record command : Success
+
+Wed Jun 12 20:05:49 2024
+FPGA Configuration Command (req)
+
+Wed Jun 12 20:05:59 2024
+FPGA Configuration : 
+Timeout Error! System disconnected
+
+Wed Jun 12 20:05:59 2024
+Return status : -5
+
+Wed Jun 12 20:06:00 2024
+Configure Record Command (req)
+
+Wed Jun 12 20:06:10 2024
+Configure Record : 
+Timeout Error! System disconnected
+
+Wed Jun 12 20:06:10 2024
+Return status : -5
+
+Wed Jun 12 20:06:11 2024
+Start Record Command (req)
+
+Wed Jun 12 20:06:21 2024
+System is disconnected.
+
+Wed Jun 12 20:06:21 2024
+Return status : -5
+
+Sun Jun 16 16:35:17 2024
+FPGA Configuration Command (req)
+
+Sun Jun 16 16:35:17 2024
+FPGA Configuration command : Success
+
+Sun Jun 16 16:35:17 2024
+Return status : 0
+
+Sun Jun 16 16:35:18 2024
+Configure Record Command (req)
+
+Sun Jun 16 16:35:18 2024
+Configure Record command : Success
+
+Sun Jun 16 16:35:18 2024
+Return status : 0
+
+Sun Jun 16 16:35:19 2024
+Start Record Command (req)
+
+Sun Jun 16 16:35:19 2024
+Start Record Command (req)
+
+Sun Jun 16 16:35:19 2024
+Start Record command : Success
+
+Sun Jun 16 16:35:19 2024
+Return status : 0
+
+Sun Jun 16 16:35:19 2024
+Start Record command : Success

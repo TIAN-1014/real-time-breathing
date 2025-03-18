@@ -1,0 +1,318 @@
+#: import icon kivy.garden.iconfonts.icon
+
+<SideBarButton@Button>:
+    lbl_text: ''
+    image_text: ''
+    size_hint_y: None
+    height: 40
+    background_color: 199/255, 196/255, 189/255, 1
+  
+    StackLayout:
+        pos: root.pos
+        size: root.size
+        padding: 5
+        orientation: 'lr-tb'
+
+        Label:
+            text: root.image_text
+            size_hint_x: 0.2
+            font_size: 15
+            markup: True
+            halign: "left" 
+            valign: "middle"
+
+        Label:
+            text: root.lbl_text
+            font_size: 15
+            bold: True
+            color: 1,1,1
+            size_hint_x: .8
+            halign: "left" 
+            valign: "middle"
+
+<RadarGuiWindow>:
+    id: main_win
+    orientation: 'vertical'   
+    padding: 10 
+    spacing: 10
+    canvas.before:
+        Color: 
+            rgba: (199/255, 196/255, 189/255, 1)
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+    BoxLayout:
+        id: title_bar
+        size_hint: (1, .05)
+        canvas.before:
+            Color: 
+                rgba: 199/255, 196/255, 189/255, 1
+            Rectangle:
+                pos: self.pos
+                size: self.size
+            Color:
+                rgba: 0, 0, 0, 1
+            Line:
+                width: 2
+                rectangle: self.x, self.y, self.width, self.height
+        
+        Label:
+            id: header_lbl
+            text: app.title
+            size_hint_x: .8
+            font_size: 30
+            color: 0,0,0
+            bold: True     
+
+    BoxLayout:
+        id: body
+        orientation: 'horizontal'
+        spacing: 10
+        padding: 10
+        BoxLayout:
+            id: side_bar
+            orientation: 'vertical'
+            size_hint_x: 0.1
+            spacing: 10
+            padding: 5
+            canvas.before:
+                Color:
+                    rgba: 0, 0, 0, 1
+                Line:
+                    width: 2
+                    rectangle: self.x, self.y, self.width, self.height
+
+            SideBarButton:
+                id: welcome_btn
+                lbl_text: 'Home'
+                image_text: '%s'%(icon("zmdi-home", 20))
+                on_release: app.show_welcome_screen()
+
+            SideBarButton:
+                id: presence_btn
+                lbl_text: 'Presence'
+                image_text: '%s'%(icon("zmdi-face", 20))
+                on_release: app.show_presence_screen()
+
+            SideBarButton:
+                id: motion_btn
+                lbl_text: 'Motion'
+                image_text: '%s'%(icon("zmdi-run", 20))
+
+            SideBarButton:
+                id: respiration_btn
+                lbl_text: 'Respiration'
+                image_text: '%s'%(icon("zmdi-broken-image", 20))
+                on_release: app.show_respiration_screen()
+        
+            SideBarButton:
+                id: heartbeat_btn
+                lbl_text: 'Heartbeat'
+                image_text: '%s'%(icon("zmdi-favorite", 20))
+                on_release: app.show_heartbeat_screen()
+
+            SideBarButton:
+                id: eyeblink_btn
+                lbl_text: 'Eyeblink'
+                image_text: '%s'%(icon("zmdi-eye", 20))
+
+            SideBarButton:
+                id: track_btn
+                lbl_text: 'Tracking'
+                image_text: '%s'%(icon("zmdi-map", 20))
+
+            SideBarButton:
+                id: actigraph_btn
+                lbl_text: 'Actigraph'
+                image_text: '%s'%(icon("zmdi-hotel", 20))
+
+            SideBarButton:
+                id: actigraph_btn
+                lbl_text: 'Emotion'
+                image_text: '%s'%(icon("zmdi-mood", 20))
+
+            Widget:
+
+            SideBarButton:
+                id: record_btn
+                lbl_text: 'Record'
+                image_text: '%s'%(icon("zmdi-time-interval", 20))
+
+            SideBarButton:
+                id: exit_btn
+                lbl_text: 'Exit'
+                image_text: '%s'%(icon("zmdi-close", 20))
+                on_release: app.quit_gui()
+
+        BoxLayout:
+            id: screens_holder
+            size_hint_x: .7
+            padding: 10
+            canvas.before:
+                Color: 
+                    rgba: 1,1,1,1
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+                Color:
+                    rgba: 0, 0, 0, 1
+                Line:
+                    width: 2
+                    rectangle: self.x, self.y, self.width, self.height
+
+        BoxLayout:
+            id: camera_holder
+            size_hint_x: .2
+            orientation: 'vertical'
+            spacing: 20
+            padding: 10
+            canvas.before:
+                Color:
+                    rgba: 0, 0, 0, 1
+                Line:
+                    width: 2
+                    rectangle: self.x, self.y, self.width, self.height
+
+            Camera:
+                id: camera
+                # resolution: (800, 480)
+                size_hint_y: 0.4
+                play: True
+
+            Widget:
+                size_hint_y:.1
+
+            BoxLayout:
+                id: info_holder
+                orientation: 'vertical'
+                size_hint_y:0.4
+                spacing: 10
+                
+                BoxLayout:
+                    id: presence_box
+                    orientation: "horizontal"
+                    spacing: 5
+                    Label:
+                        text: "Presence: "
+                        color: 0,0,0
+                        font: 40
+                        bold: True
+
+                    Label: 
+                        id: presence_var
+                        text: "Subject"
+                        color: 0,0,0
+                        font: 40
+                        bold: True
+
+                BoxLayout:
+                    id: motion_box
+                    orientation: "horizontal"
+                    spacing: 5
+                    Label:
+                        text: "Macro Motion: "
+                        color: 0,0,0
+                        font: 40
+                        bold: True
+
+                    Label: 
+                        id: motion_var
+                        text: "IDLE"
+                        color: 0,0,0
+                        font: 40
+                        bold: True
+
+                BoxLayout:
+                    id: range_box
+                    orientation: "horizontal"
+                    spacing: 5
+                    Label:
+                        text: "Distance: "
+                        color: 0,0,0
+                        font: 40
+                        bold: True
+
+                    Label: 
+                        id: range_var
+                        text: ''
+                        color: 0,0,0
+                        font: 40
+                        bold: True
+
+                BoxLayout:
+                    id: pattern_box
+                    orientation: "horizontal"
+                    spacing: 5
+                    Label:
+                        text: "Resp. Pattern: "
+                        color: 0,0,0
+                        font: 40
+                        bold: True
+                              
+                    Label: 
+                        id: pattern_var
+                        text: "Normal"
+                        color: 0,0,0
+                        font: 40
+                        bold: True
+
+                BoxLayout:
+                    id: rr_var_box
+                    orientation: "horizontal"
+                    spacing: 5
+                    Label:
+                        text: "Resp. Rate (RR): "
+                        color: 0,0,0
+                        font: 40
+                        bold: True
+
+                    Label: 
+                        id: rr_var
+                        text: "14 bpm"
+                        color: 0,0,0
+                        font: 40
+                        bold: True
+
+                BoxLayout:
+                    id: hr_box
+                    orientation: "horizontal"
+                    spacing: 5
+                    Label:
+                        text: "Heart Rate (HR): "
+                        color: 0,0,0
+                        font: 40
+                        bold: True
+
+                    Label: 
+                        id: hr_var
+                        text: "75 bpm"
+                        color: 0,0,0
+                        font: 40
+                        bold: True
+            Widget:
+
+    BoxLayout:
+        id: author_bar
+        size_hint: (1, .05)
+        orientation: 'horizontal'
+        canvas.before:
+            Color: 
+                rgba: (199/255, 196/255, 189/255, 1)
+            Rectangle:
+                pos: self.pos
+                size: self.size
+            Color:
+                rgba: 0, 0, 0, 1
+            Line:
+                width: 2
+                rectangle: self.x, self.y, self.width, self.height
+        Label:
+            id: author
+            text: 'Walid BRAHIM - 23T9001  /  Hosei University - Computer & Information Science Dep 2024-2025'
+            bold: True
+            color: 0,0,0
+            font_size: 20
+
+
+            
