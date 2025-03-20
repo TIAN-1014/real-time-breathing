@@ -1,7 +1,7 @@
 import numpy as np
 from libs.utils import clutter_remove, WisProcess, unwrap_phase_Ambiguity, fft_find_bpm, set_presence_threshold 
 from libs.data_processing.presence_localization import presence_detection_handler, locate_subject, get_angle_info
-from libs.data_processing.respiration import extract_respiration, estimate_respiration_pattern, vernier_proccesing, calculate_std, get_change_point, estimate_respiration_pattern_thresh
+from libs.data_processing.respiration import extract_respiration, estimate_respiration_pattern, vernier_proccesing, calculate_std, get_change_point, estimate_respiration_pattern_thresh,detect_characteristic_points
 from libs.data_processing.heartbeat import extract_heartbeat
 from libs.data_processing.motion_tracking import motion_detection_micro, motion_detection_macro
 from libs.show_results import matplotlib_plot, test_results, matplotlib_plot2
@@ -112,6 +112,7 @@ class RadarDataProcessor:
             "respiration_signal":[],
             "respiration_bpm_fft":[],
             "respiration_pattern":[],
+            "respiration_CPs":[],
             "heartbeat_signal":[],
             "heartbeat_bpm_fft":[],
             "witmotion1_new_data":[],
@@ -255,6 +256,10 @@ class RadarDataProcessor:
                 # print(len(self.result_dict["x_radar_array"][1:]))
 
                 # print("passed respiration processing")
+                
+                # Respiration CPs
+                respiration_CPs = detect_characteristic_points(respiration_signal)
+                self.result_dict["respiration_CPs"] = respiration_CPs
                 
                 # Heartbeat Signal
                 heartbeat_signal = extract_heartbeat(data=difference_data)

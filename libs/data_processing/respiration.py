@@ -3,6 +3,7 @@ import numpy as np
 from sys_config import *
 from user_config import *
 from sklearn import preprocessing
+from scipy.signal import find_peaks
 
 from libs.utils import combine_overlapping_tuples
 
@@ -109,3 +110,57 @@ def cal_time(index, fs = FPS):
     time = index * sampling_interval
     time = -(PLOTTING_WIN - time) # convert to '-'
     return str(time)
+
+def detect_characteristic_points(respiration_signal, min_distance_threshold=20):
+    first_derivative = np.gradient(respiration_signal)
+    second_derivative = np.gradient(first_derivative)
+    
+    height = 0.003
+    threshold = 0.0001
+    distance = 20
+    
+    peaks_2rd, _ = find_peaks(second_derivative, distance=distance, height=height, threshold=threshold)
+    troughs_2rd, _ = find_peaks(-second_derivative, distance=distance, height=height, threshold=threshold)
+    
+    zero_crossings = np.where(np.diff(np.sign(first_derivative)))[0]
+    updated_zero_crossings = []
+    
+    i = 0
+    while i < len(zero_crossings) - 1:
+        distance_between_crossings = zero_crossings[i+1] - zero_crossings[i]
+        
+        if distance_between_crossings < min_distance_threshold:
+            if (zero_crossings[i] in peaks_2rd or zero_crossings[i+1] in peaks_2rd or 
+                zero_crossings[i] in troughs_2rd or zero_crossings[i+1] in troughs_2rd):
+                
+                if any(abs(peak - zero_crossings[i]) > min_distance_threshold for peak in peaks_2rd) or \
+                   any(abs(trough - zero_crossings[i]) > min_distance_threshold for trough in troughs_2rd):
+                    updated_zero_crossings.append(zero_crossings[i])
+                    updated_zero_crossings.append(zero_crossings[i+1])
+                else:
+                    midpoint = (zero_crossings[i+1] + zero_crossings[i]) // 2
+                    updated_zero_crossings.append(midpoint)
+                i += 2
+            else:
+                midpoint = (zero_crossings[i+1] + zero_crossings[i]) // 2
+                updated_zero_crossings.append(midpoint)
+                i += 2
+        else:
+            updated_zero_crossings.append(zero_crossings[i])
+            i += 1
+    
+    if i == len(zero_crossings) - 1:
+        updated_zero_crossings.append(zero_crossings[i])
+    
+    return np.array(updated_zero_crossings)
+
+def estimate_respiration_CPs(respiration_signal,fs=FPS):
+    Inhalation_star_points=[]
+    Exhalation_star_points=[]
+    Inhalation_end_points=[]
+    Exhalation_end_points=[]
+    holding_star_points=[]
+    holding_end_points=[]
+    apnea_star_points=[]
+    apnea_end_points=[]
+    

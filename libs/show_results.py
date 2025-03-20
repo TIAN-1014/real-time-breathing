@@ -78,6 +78,9 @@ def plot_signal(signal, result_dict):
         plt.ylabel('Amplitude')
         plt.grid(linestyle=':')
         plt.ylim(-30, 30)
+        for CPs in result_dict["respiration_CPs"]:
+            plt.plot(result_dict["x_radar_array"], result_dict["respiration_signal"], 'r', label="Radar")
+            plt.plot(result_dict["x_radar_array"][result_dict["respiration_CPs"]],result_dict["respiration_signal"][result_dict["respiration_CPs"]],'go')
         # plt.ylim(0, 1)
         
         if result_dict["presence_flag"][-1]: # target in range
